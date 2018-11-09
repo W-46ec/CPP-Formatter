@@ -228,6 +228,8 @@ int main()
 								indentation = tab * (numOfTabs - 1);
 							else if (buffer.find("public") == 0)
 								indentation = tab * (numOfTabs - 1);
+							else if (buffer.find("protected") == 0)
+								indentation = tab * (numOfTabs - 1);
 							else
 								indentation = tab * numOfTabs;
 
